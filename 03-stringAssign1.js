@@ -1,0 +1,28 @@
+console.log(`======================= Assignment 1 ========================`);
+console.log(`My Dream Company is Google`);
+console.log(`-------------------------------------------------------------`);
+var hobbies1 = "Bike Riding";  
+var hobbies2 = "Exploring";
+var hobbies3 = "Playing Football";
+console.log(`my Hobbies are :`,hobbies1,",",hobbies2,",",hobbies3);
+var result = hobbies1 + hobbies2 + hobbies3;
+console.log(`my Hobbies are :`,result);
+
+console.log(`======================= Assignment 2 ========================`);
+var stringHandsOn = `     Hey you are doing good, keep it up      `;
+console.log(`1) The given string is : `,stringHandsOn);
+console.log(`2) Length of string is : `,stringHandsOn.length);
+var result = stringHandsOn.trim();
+console.log(`3) After removing extra spaces :`,result);
+console.log(`4) Total Number extra spaces count that is removed : `,stringHandsOn.length-result.length);
+console.log(`5) First Character Of string is : `,result.charAt(0),`Last character of string is : `,result.charAt(result.length-1));
+var wordList = "Hey|you|are|doing|good,|keep|it|up";
+var wordListSplit = wordList.split("|");
+console.log(`6) Total words in string are : `, wordListSplit.length);
+console.log(`7) Index of word "good" is : `,result.lastIndexOf("good"));
+var result1 = result.substring(22);
+console.log(`8) Substring starting from index 22 (Substring) :`,result1);
+var result2 = result.slice(22);
+console.log(`   Substring starting from index 22 (Slice)     :`,result2);
+console.log(`9) is string end with "up" after step 3 :`,result.endsWith('up'));
+console.log(`10) is string Starts with "Hey" after step 3 :`,result.startsWith('Hey'));
