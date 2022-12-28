@@ -143,3 +143,63 @@ switch (dayNumber) {
 }
 
 console.log(`After switch case statement`);
+
+
+
+
+var singerName = "Kishor Kumar";
+// const PI = 3.1412;
+
+let actorName;
+
+console.log(actorName);
+
+var isMarried = true;
+if (isMarried) {
+  let greet = "Congratulation";
+  //console.log(greet);
+}
+//console.log(greet);
+
+function add(num1, num2) {
+  var result = num1 + num2;
+  let PIN = 431202;
+  console.log(`Result is : ${result}`);
+  var isMarried = true;
+  if (isMarried) {
+    var greet = "Congratulation";
+    const PI = 3.14; 
+    let myName = "Mohit";
+  }
+  // console.log(PI);
+  console.log(greet);
+  console.log(`Result is : ${result}`);
+  return result;
+}
+add(5, 5);
+// console.log(`Outside Result is : ${result}`);
+// console.log(PIN);
+
+
+
+let arrayOfNumbers = [5, 10, 4, 6, 7, 10, 6]; // Empty Array
+console.log(arrayOfNumbers);
+
+console.log(`===== Total number of elements available in array ====`);
+let totalElements = arrayOfNumbers.length;
+console.log(`Total Elements in arrayOfNumbers --> ${totalElements}`);
+
+let typeOfArray =typeof arrayOfNumbers;
+console.log(`Type of array - arrayOfNumbers --> ${typeOfArray}`);
+
+console.log(`=== Accessing array elements===`);
+let elementAtZeroIndex = arrayOfNumbers[0];
+console.log(`Element at Zero Index : ${elementAtZeroIndex}`);
+console.log(`Element at Fifth Index : ${arrayOfNumbers[4]}`);
+
+console.log(`Last Element : ${totalElements-1}`);
+
+console.log(`When provided value is greater than length : ${arrayOfNumbers[9]}`);
+
+arrayOfNumbers[2] = 100; // Update or Modify value using index
+console.log(arrayOfNumbers);
